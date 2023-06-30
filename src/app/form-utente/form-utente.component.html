@@ -1,0 +1,37 @@
+<form #form="ngForm">
+    <div class="container p-3 bg-body-secondary rounded main centro mt-5 mb-5 rounded-5">
+        <h3 class="text-center">Registrazione utente</h3>
+
+        <div class="col-4 centroDue">
+            <label for="nome" class="form-label pt-3">Nome</label>
+            <input type="text" class="form-control" name="nome" id="nome" placeholder="Inserisci il nome">
+
+            <label for="cognome" class="form-label pt-3">Cognome</label>
+            <input type="text" class="form-control" name="cognome" id="cognome" placeholder="Inserisci il cognome">
+
+            <label for="dataNascita" class="form-label pt-3">Data di nascita</label>
+            <input type="date" class="form-control" name="data_nascita" id="data_nascita">
+
+            <label for="cf" class="form-label pt-3">Codice fiscale</label>
+            <input type="text" class="form-control" name="cf" id="cf" placeholder="Inserisci il codice fiscale">
+
+            <label for="telefono" class="form-label pt-3">Telefono</label>
+            <input type="number" class="form-control" name="telefono" id="telefono" placeholder="Inserisci il telefono">
+
+            <label for="username" class="form-label pt-3">Username</label>
+            <input type="text" class="form-control" name="username" id="username" placeholder="Inserisci l'username">
+
+            <label for="email" class="form-label pt-3">Email</label>
+            <input type="text" class="form-control" name="email" id="email" placeholder="Inserisci l'email">
+
+            <label for="password" class="form-label pt-3">Password</label>
+            <input type="password" class="form-control" name="password" id="password"
+                placeholder="Inserisci la password">
+        </div>
+        <br>
+        <div>
+            <button type="submit" class="btn btn-dark">Registrati</button>
+        </div>
+
+    </div>
+</form>
