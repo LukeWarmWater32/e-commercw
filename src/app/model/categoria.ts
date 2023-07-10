@@ -4,6 +4,6 @@ export class Categoria {
 
   constructor() {
     this.id = 0;
-    this.nomeCategoria = '';
+    this.nomeCategoria = "";
   }
 }

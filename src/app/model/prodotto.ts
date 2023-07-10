@@ -9,11 +9,11 @@ export class Prodotto {
 
   constructor() {
     this.id = null;
-    this.nomeProdotto = '';
-    this.codiceProdotto = '';
+    this.nomeProdotto = "";
+    this.codiceProdotto = "";
     this.taglia = null;
     this.colore = null;
-    this.nomeCategoria = '';
-    this.nomeMarca = '';
+    this.nomeCategoria = "";
+    this.nomeMarca = "";
   }
 }

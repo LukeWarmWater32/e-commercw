@@ -3,10 +3,13 @@ export class Utente {
   nome: string;
   cognome: string;
   cf: string;
-  dataNascita: Date;
+  dataNascita: string;
   email: string;
   telefono: string;
   codiceUtente: string;
+  username: string;
+  password: string;
+  nomeRuolo: string;
   //idAccount:number;
 
   constructor() {
@@ -14,12 +17,13 @@ export class Utente {
     this.nome = '';
     this.cognome = '';
     this.cf = '';
-    this.dataNascita = new Date();
+    this.dataNascita = '';
     this.email = '';
     this.telefono = '';
     this.codiceUtente = '';
-    /*this.username = '';
-    this.password = '';*/
+    this.username = '';
+    this.password = '';
+    this.nomeRuolo = '';
     //this.idAccount = 0;
   }
 }

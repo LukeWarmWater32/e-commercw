@@ -4,6 +4,6 @@ export class Marca {
 
   constructor() {
     this.id = 0;
-    this.nomeMarca = '';
+    this.nomeMarca = "";
   }
 }

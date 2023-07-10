@@ -1,0 +1,44 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.centro {
+  margin: 0 auto;
+  text-align: center;
+  width: 60%;
+  padding: 30px;
+}
+
+.centroDue {
+  margin: 0 auto;
+  width: 55%;
+  text-align: left;
+}
+
+.login {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.btn-square {
+  border: none;
+  color: whitesmoke;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 20px;
+}
+
+.centroTre{
+  text-align: center;
+}
+
+.centroDue {
+  width: 55%;
+  justify-content: center;
+  text-align: left;
+}

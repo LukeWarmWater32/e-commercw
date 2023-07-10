@@ -5,6 +5,8 @@ export class Fornitore {
   partitaIva: string;
   codiceFiscale: string;
   telAziendale: string;
+  cellFornitore: string;
+  codiceFatturazione: string;
   pec: string;
 
   constructor() {
@@ -14,6 +16,8 @@ export class Fornitore {
     this.partitaIva = '';
     this.codiceFiscale = '';
     this.telAziendale = '';
+    this.cellFornitore = '';
+    this.codiceFatturazione = '';
     this.pec = '';
   }
 }
